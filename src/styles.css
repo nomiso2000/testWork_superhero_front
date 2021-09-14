@@ -1,0 +1,44 @@
+.App {
+  align-items: center;
+  text-align: center;
+}
+.list {
+  margin: 30px;
+  padding: 1% 2%;
+  max-width: 1440px;
+  border-radius: 5px;
+  background: #ecf0f1;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.items {
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.active {
+  color: black;
+  font-size: 30px;
+}
+.active:hover {
+  color: blue;
+  font-size: 34px;
+}
+.disable {
+  font-size: 30px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.link_to_home {
+  font-size: 46px;
+  color: black;
+}
+.link_to_home:hover {
+  font-size: 86px;
+  color: red;
+}
